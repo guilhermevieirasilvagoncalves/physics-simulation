@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela 1</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='tela1.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <div class="row">
+      <div class="col-md-12">
+      <form action="{{ url_for('tela1') }}" method="post">
+        <h3> 1. Caixa 1D – Determinação da função de onda quântica e outros parâmetros </h3>
+        
+        <fieldset>    
+         <legend><span class="number">1</span> Insira os valores:</legend>
+          <label for="L">Largura da caixa:</label>
+          <input type="L" id="L" name="L">
+        
+          <label for="ni">Número quântico inicial da partícula confinada:</label>
+          <input type="ni" id="ni" name="ni">
+       
+          <label for="nf">Número quântico final da partícula confinada:</label>
+          <input type="nf" id="nf" name="nf">
+        
+          <label for="a">a:</label>
+          <input type="a" id="a" name="a">
+
+          <label for="b">b:</label>
+          <input type="b" id="a" name="b">
+        
+        </fieldset>
+        <button type="submit" class="button1">Calcular</button>
+        
+       </form>
+        </div>
+      </div>
+    </body>
+</html>

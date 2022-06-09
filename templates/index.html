@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index.css') }}">
+  </head>
+  <body>
+    <section class="bloco -txtCenter">
+      <div class="titulos">
+        <h2 class="tit">Simulação Computacional</h2>
+        <p class="desc">Projeto de Optica e Fisica Moderna CF3121</p>
+      </div> 
+      <div>
+        <a href="{{ url_for('tela1') }}" method="get" class="btn btn-1">
+          1. Caixa 1D
+          <span class="download-box">
+            <span class="entypo-down"></span>
+            <span class="box"></span>
+          </span>
+        </a>
+        </div>
+        
+        <div>
+        <a href="{{ url_for('tela2') }}" method="get" class="btn btn-2">
+          2. Caixa 1D
+          <span class="download-box">
+            <span class="entypo-down"></span>
+            <span class="box"></span>
+          </span>
+        </a>
+        </div>
+      <div>
+        <a href="{{ url_for('tela3') }}" method="get" class="btn btn-3">
+          3. Caixa 2D
+          <span class="download-box">
+            <span class="entypo-down"></span>
+            <span class="box"></span>
+          </span>
+        </a>
+        </div>
+
+        <div>
+          <a href="{{ url_for('tela4') }}" method="get" class="btn btn-4">
+            4. Caixa 3D
+            <span class="download-box">
+              <span class="entypo-down"></span>
+              <span class="box"></span>
+            </span>
+          </a>
+          </div>
+    </div>
+    <p class="desc">Bruna Pereira Paz 22.121.020-6</p>
+    <p class="desc">Guilherme Vieira Silva Gonçalves 22.121.025-5</p>
+
+  </body>
+</html>

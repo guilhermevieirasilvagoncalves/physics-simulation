@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela 3</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='tela1.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+        <form action="{{ url_for('tela3') }}" method="post">
+            <h3> 3. Caixa 2D – Cálculo das energias da partícula confinada e dados dos fótons absorvidos
+            ou emitidos nas transições entre os níveis </h3>
+        
+        <fieldset>    
+         <legend><span class="number3">1</span> Insira os valores:</legend>
+          <label for="L">Largura da caixa:</label>
+          <input type="L" id="L" name="L">
+        
+          <label for="nxi">Número quântico inicial da partícula confinada (nxi):</label>
+          <input type="nxi" id="nxi" name="nxi">
+       
+          <label for="nyi">Número quântico inicial da partícula confinada (nyi):</label>
+          <input type="nyi" id="nyi" name="nyi">
+        
+          <label for="nxf">Número quântico final da partícula confinada (nxf):</label>
+          <input type="nxf" id="nxf" name="nxf">
+
+          <label for="nyf">Número quântico final da partícula confinada (nyf):</label>
+          <input type="nyf" id="nyf" name="nyf">
+        
+        </fieldset>
+        <button type="submit" class = "button3">Calcular</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>

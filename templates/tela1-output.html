@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela 1</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='tela1.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form>
+        <h3> 1. Caixa 1D – Determinação da função de onda quântica e outros parâmetros </h3>
+        
+        <fieldset>    
+          <p>{{ retorno[0] }}</p>
+          <p>{{ retorno[1] }}</p>
+          <h4>No Próton</h4>
+          <p>{{ retorno[2] }}</p>
+          <p>{{ retorno[3] }}</p>
+          <h4>No Elétron</h4>
+          <p>{{ retorno[4] }}</p>
+          <p>{{ retorno[5] }}</p>
+          <p>{{ retorno[6] }}</p>
+          <p>{{ retorno[7] }}</p>
+          <h4>No Próton</h4>
+          <p>{{ retorno[8] }}</p>
+          <p>{{ retorno[9] }}</p>
+          <h4>No Elétron</h4>
+          <p>{{ retorno[10] }}</p>
+          <p>{{ retorno[11] }}</p>
+          <p>{{ retorno[12] }}</p>
+          <p>{{ retorno[13] }}</p>
+          <p>{{ retorno[14] }}</p>
+          <p>{{ retorno[15] }}</p>
+
+          <img class = "img" src="{{url_for('static',filename='grafico1.png')}}">
+          <img class = "img" src="{{url_for('static',filename='grafico2.png')}}">
+          <img class = "img2" src="{{url_for('static',filename='grafico3.png')}}">
+
+         </fieldset>
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>

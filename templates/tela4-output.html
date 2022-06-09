@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela 4</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='tela1.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form>
+        <h3> 4. Caixa 3D – Cálculo das energias da partícula confinada e dados dos fótons absorvidos
+          ou emitidos nas transições entre os níveis </h3>
+        <fieldset>    
+          <h3>No Elétron</h3>
+          <label for="L">Energia do estado fundamental:</label>
+          <p>{{ retorno[0] }}</p>
+         
+          <label for="ni">Energia do nível inicial e final:</label>
+          <p> Inicial: {{ retorno[1] }}</p>
+          <p> Final: {{ retorno[2] }}</p>
+
+          <label for="nf">Energia e Comprimento de onda do fóton absorvido ou emitido pela partícula na transição
+            entre os níveis::</label>
+          <p> Efóton: {{ retorno[3] }}</p>
+          <p> λfóton: {{ retorno[4] }}</p>
+
+          <h3>No Próton</h3>
+
+          <label for="L">Energia do estado fundamental:</label>
+          <p>{{ retorno[5] }}</p>
+         
+          <label for="ni">Energia do nível inicial e final:</label>
+          <p> Inicial: {{ retorno[6] }}</p>
+          <p> Final: {{ retorno[7] }}</p>
+
+          <label for="nf">Energia e Comprimento de onda do fóton absorvido ou emitido pela partícula na transição
+            entre os níveis::</label>
+          <p> Efóton: {{ retorno[8] }}</p>
+          <p> λfóton: {{ retorno[9] }}</p>
+
+        </fieldset>
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>

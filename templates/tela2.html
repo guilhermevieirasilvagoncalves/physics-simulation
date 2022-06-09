@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela 2</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='tela1.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="{{ url_for('tela2') }}" method="post">
+        <h3>2. Caixa 1D – Cálculo dos parâmetros da caixa e partícula, dada a função de onda</h3>
+        
+        <fieldset>    
+         <legend><span class="number2">1</span> Insira os valores:</legend>
+         <text>A função de onda (no SI) de uma partícula confinada em um poço de potencial infinito
+          unidimensional é dada por:
+          𝜓(𝑥) = 𝐴 sin(𝑘 ∙ 𝑥)</text>
+          <br><br>
+          <label for="A">A:</label>
+          <input type="A" id="A" name="A">
+        
+          <label for="k">k:</label>
+          <input type="k" id="k" name="k">
+
+        </fieldset>
+       
+        <button type="submit" class="button2">Calcular</button>
+        
+       </form>
+        </div>
+      </div>
+    </body>
+</html>
