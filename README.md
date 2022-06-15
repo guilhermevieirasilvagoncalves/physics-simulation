@@ -7,7 +7,7 @@ leva à quantização dos níveis de energia da partícula;
 3. Variação de níveis de
 energia através da emissão e absorção de fótons;
 4. Função de onda quântica independente do
-tempo
+tempo.
 
 ### 🔧 Instalação
 
@@ -45,3 +45,5 @@ Este projeto está sob a licença (MIT License) - veja o arquivo [LICENSE.md](ht
 :-------------------------:|:-------------------------:|
 <img src="https://avatars.githubusercontent.com/u/88863957?v=4" alt="drawing" width="150"/>  |  <img src="https://avatars.githubusercontent.com/u/37667890?v=4" alt="drawing" width="150"/>
 22.121.025-5 | 22.121.020-6
+
+⌨️ com ❤️ por [Guilherme Vieira](https://github.com/guilhermevieirasilvagoncalves) e [Bruna Paz](https://github.com/PazBruna)
