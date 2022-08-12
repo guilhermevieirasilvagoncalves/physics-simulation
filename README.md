@@ -1,7 +1,7 @@
 # Simulador para a matéria CF3121
 
-Simulador para estudar/saber/entender o:
-1. O confinamento de partículas quânticas
+Simulador para estudar/saber/entender o(a):
+1. Confinamento de partículas quânticas
 leva à quantização dos níveis de energia da partícula; 
 2. Salto quântico; 
 3. Variação de níveis de
